@@ -1,1 +1,1 @@
-alert("Interdit aux moins de 12 !");
+alert("Welcome stranger");
