@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/trustymalware/pwa_acs/issues"
   },
-  "homepage": "https://github.com/trustymalware/pwa_acs#readme"
+  "homepage": "https://github.com/trustymalware/pwa_acs#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3"
+  }
 }
