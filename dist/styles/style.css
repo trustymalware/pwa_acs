@@ -1,6 +1,9 @@
 body {
-  background-color: aqua;
-  font-size: 80px;
+  background-color: gray;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

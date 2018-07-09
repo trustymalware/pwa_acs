@@ -1,7 +1,10 @@
-$color: aqua;
-$font: 80px;
+$color: gray;
+$font: 40px;
 
 body{
     background-color: $color;
+}
+
+h1{
     font-size: $font;
 }
