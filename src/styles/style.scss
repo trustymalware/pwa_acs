@@ -1,18 +1,20 @@
 $color: gray;
 $font: 40px;
 
+
 body{
     background-color: $color;
 }
 
-h1{
+h1 h2{
     font-size: $font;
+    position: center;
 }
 
 .button{
     background-color: black;
     border: none;
-    color: white;
+    color: gray;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
