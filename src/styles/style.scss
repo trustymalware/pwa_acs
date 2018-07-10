@@ -1,23 +1,41 @@
-$color: gray;
-$font: 40px;
+$color: #DCDCDC;
+$fontcolor: #2F4F4F;
+$fontfamily: Liberation Mono;
 
 
 body{
     background-color: $color;
 }
 
-h1 h2{
-    font-size: $font;
-    position: center;
+#header{
+    text-align: center;
+    color: $fontcolor;
+    font-family: $fontfamily;
+}
+
+footer{
+    text-align: center;
 }
 
 .button{
-    background-color: black;
+    background-color: #2F4F4F;
     border: none;
-    color: gray;
+    color: #DCDCDC;
     padding: 15px 32px;
     text-align: center;
+    font-family: $fontfamily;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    width: 150px;
+    border-radius: 15px 0px 15px 0px;
+}
+
+section{
+    margin: 10px 15px;
+    text-align: center;
+}
+
+.image{
+    width: 50px;
 }

@@ -1,21 +1,38 @@
 body {
-  background-color: gray;
+  background-color: #DCDCDC;
 }
 
-h1 h2 {
-  font-size: 40px;
-  position: center;
+#header {
+  text-align: center;
+  color: #2F4F4F;
+  font-family: Liberation Mono;
+}
+
+footer {
+  text-align: center;
 }
 
 .button {
-  background-color: black;
+  background-color: #2F4F4F;
   border: none;
-  color: gray;
+  color: #DCDCDC;
   padding: 15px 32px;
   text-align: center;
+  font-family: Liberation Mono;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  width: 150px;
+  border-radius: 15px 0px 15px 0px;
+}
+
+section {
+  margin: 10px 15px;
+  text-align: center;
+}
+
+.image {
+  width: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
