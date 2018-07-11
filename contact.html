@@ -8,22 +8,43 @@
     <title>contact</title>
 </head>
 <body>
-    <!-- <header id="header">
-        <div>
+    <header id="header">
+        <!-- <div>
             <h1>MEHDI BENSEGHIR</h1>
-            <h2>wannabeDev</h2>
+            <h2>DEV JUN</h2>
+        </div> -->
+        <div class="pagetitle">
+            <h2>CONTACT</h2>
         </div>
-        <div class="logo">
+        <!-- <div class="logo">
             <a href="https://github.com/trustymalware" target="_blank">
                 <img src="dist/assets/images/png/github-filled.png" alt="logo github" class="image">
             </a>
             <a href="https://fr.linkedin.com/in/rustysoftware" target="_blank">
                 <img src="dist/assets/images/png/linkedin-logo-button.png" alt="logo linkedin" class="image">
             </a>
-        </div>
-    </header> -->
+        </div> -->
+    </header>
 
-    <footer class="footerbutton">
+    <main id="contact">
+            <form action="/ma-page-de-traitement" method="post">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="name" name="user_name" placeholder="Vos nom et prénom">
+                </div>
+                <div>
+                    <label for="mail"></label>
+                    <input type="email" id="mail" name="user_mail" placeholder="Votre e-mail">
+                </div>
+                <div>
+                    <label for="msg"></label>
+                    <textarea id="msg" name="user_message" placeholder="Votre message"></textarea>
+                </div>
+                <input type="submit" name="nom" value="Envoyer" id="sendbutton">
+            </form>
+    </main>
+
+    <footer class="footerbutton" id="footer">
         <a href="home.html">
             <button class="button">
                 HOME

@@ -1,5 +1,6 @@
 body {
   background-color: #DCDCDC;
+  font-family: Liberation Mono;
 }
 
 #header {
@@ -8,8 +9,26 @@ body {
   font-family: Liberation Mono;
 }
 
-footer {
+#footer {
+  font-family: Liberation Mono;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#sendbutton {
+  background-color: #DCDCDC;
+  border: 1px #2F4F4F solid;
+  color: #2F4F4F;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: Liberation Mono;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .button {
@@ -23,7 +42,7 @@ footer {
   display: inline-block;
   font-size: 16px;
   width: 150px;
-  border-radius: 15px 0px 15px 0px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 section {
@@ -33,6 +52,57 @@ section {
 
 .image {
   width: 50px;
+}
+
+.cv {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+#msg {
+  width: 240px;
+  height: 100px;
+}
+
+.maincv {
+  text-align: center;
+  height: 100%;
+}
+
+.dropbutton {
+  background-color: #2F4F4F;
+  border: none;
+  color: #DCDCDC;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: Liberation Mono;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+}
+
+.dropdown-content p {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
