@@ -8,6 +8,10 @@ body{
     font-family: $fontfamily;
 }
 
+p{
+    text-align: center;
+}
+
 #header{
     text-align: center;
     color: $fontcolor;
@@ -34,6 +38,7 @@ body{
     font-size: 16px;
     width: 150px;
     border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
 }
 
 .button{
@@ -48,6 +53,7 @@ body{
     font-size: 16px;
     width: 150px;
     border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
 }
 
 section{
@@ -74,7 +80,8 @@ section{
 
 .maincv{
     text-align: center;
-    height: 100%;
+    height: 350px;
+    overflow: auto;
 }
 
 .dropbutton{
