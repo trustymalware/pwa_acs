@@ -18,7 +18,9 @@ p {
   text-align: center;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #sendbutton {
@@ -76,9 +78,8 @@ section {
 
 .maincv {
   text-align: center;
-  height: 350px;
+  height: 400px;
   overflow: auto;
-  padding-left: 15px;
 }
 
 .dropbutton {
@@ -119,7 +120,26 @@ section {
 }
 
 .logo {
-  display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.homebutton {
+  border: none;
+  border-radius: 150px;
+  height: 50px;
+}
+
+.imageprofil {
+  width: 25px;
+  border-radius: 150px;
+  padding-top: 5px;
+}
+
+.homebuttonfilled {
+  height: 50px;
+  visibility: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
