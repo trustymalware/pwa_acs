@@ -30,7 +30,7 @@ p{
     background-color: #DCDCDC;
     border: 1px #2F4F4F solid;
     color: #2F4F4F;
-    padding: 15px 32px;
+    padding: 10px 27px;
     text-align: center;
     font-family: $fontfamily;
     text-decoration: none;
@@ -45,7 +45,7 @@ p{
     background-color: #2F4F4F;
     border: none;
     color: #DCDCDC;
-    padding: 15px 32px;
+    padding: 10px 27px;
     text-align: center;
     font-family: $fontfamily;
     text-decoration: none;
@@ -82,13 +82,14 @@ section{
     text-align: center;
     height: 350px;
     overflow: auto;
+    padding-left: 15px;
 }
 
 .dropbutton{
     background-color: #2F4F4F;
     border: none;
     color: #DCDCDC;
-    padding: 15px 32px;
+    padding: 10px 27px;
     text-align: center;
     font-family: $fontfamily;
     text-decoration: none;
