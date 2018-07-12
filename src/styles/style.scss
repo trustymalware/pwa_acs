@@ -63,6 +63,7 @@ section{
 
 .image{
     width: 50px;
+    border-radius: 150px;
 }
 
 .cv{
@@ -118,4 +119,12 @@ section{
 
 .dropdown:hover .dropdown-content{
     display: block;
+}
+
+.profilpic{
+    border-radius: 150px;
+}
+
+.logo{
+    display: inline;
 }
