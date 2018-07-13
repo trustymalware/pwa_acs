@@ -1,5 +1,5 @@
-$color: #DCDCDC;
-$fontcolor: #2F4F4F;
+$color: #F5F5F5;
+$fontcolor: black;
 $fontfamily: Liberation Mono;
 
 
@@ -29,9 +29,10 @@ p{
 }
 
 #sendbutton{
-    background-color: #DCDCDC;
-    border: 1px #2F4F4F solid;
-    color: #2F4F4F;
+    background-color: #F5F5F5;
+    border: 1px black solid;
+    color: black;
+    margin: 10px;
     padding: 10px 27px;
     text-align: center;
     font-family: $fontfamily;
@@ -39,22 +40,21 @@ p{
     display: inline-block;
     font-size: 16px;
     width: 150px;
-    border-radius: 10px 10px 10px 10px;
     cursor: pointer;
 }
 
 .button{
-    background-color: #2F4F4F;
-    border: none;
-    color: #DCDCDC;
+    background-color: #F5F5F5;
+    border: 1px black solid;
+    color: black;
     padding: 10px 27px;
+    margin: 10px;
     text-align: center;
     font-family: $fontfamily;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     width: 150px;
-    border-radius: 10px 10px 10px 10px;
     cursor: pointer;
 }
 
@@ -79,6 +79,8 @@ section{
 #msg {
     width: 240px;
     height: 100px;
+    margin: 10px;
+    border: 1px black solid;
 }
 
 .maincv{
@@ -88,9 +90,13 @@ section{
 }
 
 .dropbutton{
-    background-color: #2F4F4F;
-    border: none;
-    color: #DCDCDC;
+    // // background-color: #2F4F4F;
+    // background-color: black;
+    // border: none;
+    // color: #DCDCDC;
+    background-color: #F5F5F5;
+    border: 1px black solid;
+    color: black;
     padding: 10px 27px;
     text-align: center;
     font-family: $fontfamily;
@@ -98,7 +104,8 @@ section{
     display: inline-block;
     font-size: 16px;
     width: 150px;
-    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    // border-radius: 10px 10px 10px 10px;
 }
 
 .dropdown{
@@ -135,7 +142,7 @@ section{
 .homebutton{
     border: none;
     border-radius: 150px;
-    height: 50px;
+    height: 40px;
 }
 
 .imageprofil{
@@ -145,6 +152,33 @@ section{
 }
 
 .homebuttonfilled{
-    height: 50px;
+    height: 40px;
     visibility: hidden;
+    padding-right: 5px;
+}
+
+.homemenu{
+    padding-top: 60px;
+}
+
+#name{
+    border: 1px black solid;
+    width: 240px;
+    height: 30px;
+    margin: 10px;
+}
+
+#mail{
+    border: 1px black solid;
+    width: 240px;
+    height: 30px;
+    margin: 10px;
+}
+
+hr{
+    height: 1px;
+    width: 150px;
+    color: black;
+    background-color: black;
+    border: 0;
 }
