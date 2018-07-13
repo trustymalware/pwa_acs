@@ -83,7 +83,7 @@ section{
     border: 1px black solid;
 }
 
-.maincv{
+#maincv{
     text-align: center;
     height: 400px;
     overflow: auto;
@@ -118,9 +118,9 @@ section{
     display: block;
 }
 
-// .dropdown:hover .dropdown-content{
-//     display: block;
-// }
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 
 .profilpic{
     border-radius: 150px;

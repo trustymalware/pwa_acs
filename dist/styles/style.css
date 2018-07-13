@@ -78,7 +78,7 @@ section {
   border: 1px black solid;
 }
 
-.maincv {
+#maincv {
   text-align: center;
   height: 400px;
   overflow: auto;
@@ -110,6 +110,10 @@ section {
 }
 
 .dropdown-content p {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
