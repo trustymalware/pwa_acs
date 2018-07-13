@@ -90,10 +90,6 @@ section{
 }
 
 .dropbutton{
-    // // background-color: #2F4F4F;
-    // background-color: black;
-    // border: none;
-    // color: #DCDCDC;
     background-color: #F5F5F5;
     border: 1px black solid;
     color: black;
@@ -105,7 +101,6 @@ section{
     font-size: 16px;
     width: 150px;
     cursor: pointer;
-    // border-radius: 10px 10px 10px 10px;
 }
 
 .dropdown{
@@ -117,8 +112,6 @@ section{
 .dropdown-content{
     display: none;
     position: relative;
-    // min-width: 160px;
-    // z-index: 1;
 }
 
 .dropdown-content p {
@@ -143,6 +136,7 @@ section{
     border: none;
     border-radius: 150px;
     height: 40px;
+    margin-right: 10px;
 }
 
 .imageprofil{
