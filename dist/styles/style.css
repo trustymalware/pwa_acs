@@ -113,10 +113,6 @@ section {
   display: block;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 .profilpic {
   border-radius: 150px;
 }
