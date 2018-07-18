@@ -2,6 +2,12 @@ $color: #F5F5F5;
 $fontcolor: black;
 $fontfamily: Liberation Mono;
 
+@font-face{
+    font-family: "Liberation Mono";
+    src: url("dist/assets/fonts/liberationmono/LiberationMono-Regular.ttf");
+    src: url("dist/assets/fonts/liberationmono/liberationmono-regular-webfont.eot");
+    
+}
 
 body{
     background-color: $color;
