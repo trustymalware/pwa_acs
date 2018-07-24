@@ -1,14 +1,6 @@
 $color: #F5F5F5;
 $fontcolor: black;
 $fontfamily: Liberation Mono;
-$fontfamilytitle: la Chatte a Maman;
-
-// @font-face{
-//     font-family: "Liberation Mono";
-//     src: url("dist/assets/fonts/liberationmono/LiberationMono-Regular.ttf");
-//     src: url("dist/assets/fonts/liberationmono/liberationmono-regular-webfont.eot") format("embedded-opentype"),
-//          url("dist/assets/fonts/liberationmono/liberationmono-regular-webfont.svg") format("svg");
-// }
 
 body{
     background-color: $color;
@@ -28,7 +20,6 @@ p{
 #footer{
     font-family: $fontfamily;
     text-align: center;
-    // width: 100%;
     position: absolute;
     bottom: 0;
     display: flex;
@@ -184,7 +175,3 @@ hr{
     background-color: black;
     border: 0;
 }
-
-// h1{
-//     font-family: $fontfamilytitle;
-// }
